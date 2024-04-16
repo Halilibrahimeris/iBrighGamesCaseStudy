@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public SliderColorChange sliderColorChange;
+
     private Vector2 startTouchPosition;
     private Rigidbody2D rb;
 
-    public Slider _Slider;
-    public Image Fill;
-    [Space]
-    [HideInInspector]public float deltaPosition;
+    [HideInInspector]
+    public float deltaPosition;
     float jumpForce;
 
     public bool isGrounded = true; // Karakterin yerde olup olmadýðýný kontrol ettiðimiz durum
@@ -39,27 +39,9 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
             }
         }
-        if (true)
-        {
+        if(!isGrounded)
+            sliderColorChange.ChangeColor(deltaPosition);
 
-        }
-        if (deltaPosition >= 65)//turuncuya dön
-        {
-            _Slider.value = Mathf.MoveTowards(_Slider.value, deltaPosition, 1);
-            if (_Slider.value >= 65)
-            {
-                float r = 0;
-                r = Mathf.MoveTowards(r, 250f, 1);
-                Fill.color = new Color(r, 0, 0);
-                jumpForce = 5;
-            }
-        }
-        else//yeþil
-        {
-            //yeþil ol
-            if(_Slider.value >= 35)
-            jumpForce = 2.5f;
-        }
     }
 
     void Jump()

@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.63529414, b: 0, a: 1}
+  m_Color: {r: 0.161767, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -592,6 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c09a3f9e998364bb3a58abe5f2205a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SliderColor: {fileID: 2142233159}
 --- !u!1 &572669712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,6 +1121,10 @@ MonoBehaviour:
   _Slider: {fileID: 2142233158}
   Fill: {fileID: 313553434}
   deltaPosition: 0
+  SliderSpeed: 7
+  r: 0
+  g: 0
+  b: 0
   isGrounded: 1
 --- !u!1 &1860583883
 GameObject:
@@ -1269,6 +1274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2142233157}
   - component: {fileID: 2142233158}
+  - component: {fileID: 2142233159}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1351,6 +1357,24 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2142233159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142233156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717d8efeba988d040a0b37bc4d01ef49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _slider: {fileID: 0}
+  Fill: {fileID: 313553434}
+  SliderSpeed: 0.5
+  r: 0
+  g: 0
+  b: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
