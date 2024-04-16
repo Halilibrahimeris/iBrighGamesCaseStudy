@@ -9,16 +9,18 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 startTouchPosition;
     private Rigidbody2D rb;
+    private Animator animator;
 
     [HideInInspector]
     public float deltaPosition;
     float jumpForce;
-
+    [Space]
     public bool isGrounded = true; // Karakterin yerde olup olmadýðýný kontrol ettiðimiz durum
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -39,8 +41,13 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
             }
         }
-        if(!isGrounded)
+        if (!isGrounded)
+        {
             sliderColorChange.ChangeColor(deltaPosition);
+            CheckYPos();
+        }
+
+        animator.SetBool("isGrounded", isGrounded);
 
     }
 
@@ -48,16 +55,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if (deltaPosition >= 150)
         {
-            jumpForce = 7;
+            jumpForce = 15;
 
         }
         else if(deltaPosition >= 65)
         {
-            jumpForce = 5;
+            jumpForce = 10f;
         }
         else
         {
-            jumpForce = 2.5f;
+            jumpForce = 5f;
         }
         // Karakteri zýplatmak için Rigidbody2D bileþenine bir kuvvet uygulayýn.
         rb.velocity = Vector2.up * jumpForce;
@@ -65,5 +72,16 @@ public class PlayerMovement : MonoBehaviour
         // Birden fazla zýplamanýn önüne geçmek için canJump'i false yapýn
         isGrounded = false;
 
+    }
+    void CheckYPos()
+    {
+        if(rb.velocity.y >= 0)
+        {
+            animator.SetBool("isJump", true);
+        }
+        else
+        {
+            animator.SetBool("isJump", false);
+        }
     }
 }

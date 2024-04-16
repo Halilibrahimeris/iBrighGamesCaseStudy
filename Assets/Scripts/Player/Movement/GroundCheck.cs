@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
@@ -17,7 +15,6 @@ public class GroundCheck : MonoBehaviour
             playerMain.isGrounded = true;
             playerMain.deltaPosition = 0;
             SliderColor.Fill.color = Color.green;
-            SliderColor.r = 0; SliderColor.g = 255; SliderColor.b = 0;
             SliderColor._slider.value = 0;
         }
     }
