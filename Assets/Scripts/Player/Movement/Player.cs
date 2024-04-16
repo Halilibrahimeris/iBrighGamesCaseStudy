@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour,IDamageable
 {
     public SliderColorChange sliderColorChange;
 
@@ -14,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public float deltaPosition;
     float jumpForce;
+    public int Health = 3;
     [Space]
     public bool isGrounded = true; // Karakterin yerde olup olmadýðýný kontrol ettiðimiz durum
 
@@ -31,12 +31,12 @@ public class PlayerMovement : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                startTouchPosition = touch.position;
+                startTouchPosition = touch.position;//ilk dokunduðumuz noktayý alan kod
             }
 
             if (touch.phase == TouchPhase.Ended && isGrounded)
             {
-                deltaPosition = (touch.position.y - startTouchPosition.y)/10;
+                deltaPosition = (touch.position.y - startTouchPosition.y)/10;//kaydýrma miktarýmýzý alan kod
                 Debug.Log(deltaPosition);
                 Jump();
             }
@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            jumpForce = 5f;
+            jumpForce = 7f;
         }
         // Karakteri zýplatmak için Rigidbody2D bileþenine bir kuvvet uygulayýn.
         rb.velocity = Vector2.up * jumpForce;
@@ -82,6 +82,16 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("isJump", false);
+        }
+    }
+
+    public void TakeDamage()
+    {
+        Health -= 1;
+        if(Health == 0)
+        {
+            //end game
+            Debug.Log("Karakter öldü");
         }
     }
 }

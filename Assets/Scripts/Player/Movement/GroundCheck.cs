@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    PlayerMovement playerMain;
+    Player playerMain;
     public SliderColorChange SliderColor;
     private void Start()
     {
-        playerMain = GetComponentInParent<PlayerMovement>();
+        playerMain = GetComponentInParent<Player>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,6 +16,13 @@ public class GroundCheck : MonoBehaviour
             playerMain.deltaPosition = 0;
             SliderColor.Fill.color = Color.green;
             SliderColor._slider.value = 0;
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Ground"))
+        {
+            playerMain.isGrounded = true;
         }
     }
 }
