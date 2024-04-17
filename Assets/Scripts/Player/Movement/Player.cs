@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour,IDamageable
 {
     public SliderColorChange sliderColorChange;
-
+    public HPManager HpManager;
     private Vector2 startTouchPosition;
     private Rigidbody2D rb;
     private Animator animator;
@@ -87,10 +87,12 @@ public class Player : MonoBehaviour,IDamageable
 
     public void TakeDamage()
     {
+        animator.SetTrigger("Hurth");
         Health -= 1;
+        HpManager.HearthsClose();
         if(Health == 0)
         {
-            //end game
+            Time.timeScale = 0f;
             Debug.Log("Karakter öldü");
         }
     }
