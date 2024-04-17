@@ -16,17 +16,19 @@ public class PlatformMain : MonoBehaviour
         {
             if (platform.reset)
             {
-                ResetPos(platform);
-                ActiveRandomPlatform();
+                ResetPlatform(platform);
             } 
         }
+
     }
-    void ResetPos(Platform platform)
+    public void ResetPlatform(Platform platform)
     {
         float randomLimit = Random.Range(LowerLimit, UpperLimit);
         platform.transform.localPosition = new Vector3(platform._startPos.x, randomLimit, 0);
         platform.reset = false;
         platform.gameObject.SetActive(false);
+        int random = Random.Range(0, platforms.Count);
+        platforms[random].gameObject.SetActive(true);
     }
     void ActiveRandomPlatform()
     {

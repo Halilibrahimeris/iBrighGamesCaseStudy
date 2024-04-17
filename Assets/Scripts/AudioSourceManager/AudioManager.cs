@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     private AudioSource audioSource;
     private int _clipId;
     private int _nextclipId;
+    public bool nextSong = false;
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -22,16 +23,17 @@ public class AudioManager : MonoBehaviour
 
     public void isClipOver()
     {
-        if(audioSource.isPlaying == false) 
+        if(audioSource.isPlaying == false || nextSong) 
         {
             _nextclipId = Random.Range(0,clipList.Count);
-            while(_nextclipId != _clipId) 
+            while(_nextclipId == _clipId) 
             {
                 _nextclipId = Random.Range(0, clipList.Count);
             }
             _clipId = _nextclipId;
             audioSource.clip = clipList[_clipId];
             audioSource.Play();
+            nextSong = false;
         }
     }
 }

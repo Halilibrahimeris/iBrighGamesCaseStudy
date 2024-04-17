@@ -6,6 +6,7 @@ public class Player : MonoBehaviour,IDamageable
 {
     public SliderColorChange sliderColorChange;
     public HPManager HpManager;
+
     private Vector2 startTouchPosition;
     private Rigidbody2D rb;
     private Animator animator;
@@ -14,8 +15,12 @@ public class Player : MonoBehaviour,IDamageable
     public float deltaPosition;
     float jumpForce;
     public int Health = 3;
+
     [Space]
     public bool isGrounded = true; // Karakterin yerde olup olmadýðýný kontrol ettiðimiz durum
+
+    [Space]
+    public GameObject EndGameScreen;
 
     void Start()
     {
@@ -66,10 +71,10 @@ public class Player : MonoBehaviour,IDamageable
         {
             jumpForce = 7f;
         }
-        // Karakteri zýplatmak için Rigidbody2D bileþenine bir kuvvet uygulayýn.
+        // Karakteri zýplatmak için Rigidbody'e yukarý doðru güç uyguluyorum
         rb.velocity = Vector2.up * jumpForce;
 
-        // Birden fazla zýplamanýn önüne geçmek için canJump'i false yapýn
+        // Birden fazla zýplamanýn önüne geçmek için isGrounded deðiþkenini kullanýyorum
         isGrounded = false;
 
     }
@@ -92,6 +97,7 @@ public class Player : MonoBehaviour,IDamageable
         HpManager.HearthsClose();
         if(Health == 0)
         {
+            EndGameScreen.SetActive(true);
             Time.timeScale = 0f;
             Debug.Log("Karakter öldü");
         }

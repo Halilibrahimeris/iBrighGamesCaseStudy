@@ -12,7 +12,6 @@ public class Platform : MonoBehaviour
     {
         _startPos = transform.position;
         gems = GetComponentsInChildren<Gem>();
-        limit = GameManager.Instance.LeftLimit;
     }
     private void Update()
     {

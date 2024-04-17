@@ -1,0 +1,646 @@
+fileFormatVersion: 2
+guid: fb97888219228ac4e8b91a87cd2fd43d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 295
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8b84a6c5afe6c4084f989bb1e5329c
+      internalID: -1875213627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 296
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c50bd0213cd04144967d1e9ae8c8d50
+      internalID: 51647506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 295
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa37dd14878c91b43b8791a29431a35c
+      internalID: -92212508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 296
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4047082fc3d3047beab4353bc7a148
+      internalID: -701233055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 296
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfa422d9c3db3445ada3ec47b7b039b
+      internalID: 3678680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 296
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83aaf333b5ed4ab42ac9f1b0dd03fca7
+      internalID: -1789976676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 107
+        width: 38
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2573b348b68d9b4b90e2582b2e4e28e
+      internalID: -368795192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 233
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8729da061d9f1f94fa6aed79998a31cf
+      internalID: 1122512587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 233
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc248c55465446c42a27cff8493d2b33
+      internalID: -1264988867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 232
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf47592e941905043a3bffa4d0b0ef67
+      internalID: -80146569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 232
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d026f11ec6e35548abc5476b5318cc4
+      internalID: -1082756147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 232
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c1e0d106314ad44a8a9cadbb95b51b
+      internalID: 928508640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 108
+        width: 38
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c7742b31b17b14db4ff30a9d0cd9c2
+      internalID: 998348857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 169
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882ad8fb0fb97e344afa1fa63b118e4b
+      internalID: 953513311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 170
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df77bd4c81f4dac42906fb610f43249e
+      internalID: 667449251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 170
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe60dd7636922243a92d91bf2dbfbc5
+      internalID: -944882184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 170
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53af90917fae3c45ad67892d7dbb7f4
+      internalID: -1058388757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 170
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf8eb589b8abfe4dbfdeeab9fe86b9d
+      internalID: 997937438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 108
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dabec0abb52774997e7d329bcf9ff7
+      internalID: -1055587825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 108
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8300f8dd8fe915e499b7404f0cf88b09
+      internalID: 1899077029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 107
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788e5e2ee2d92804e915cc39c13c3212
+      internalID: 612370879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 109
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4a49b6157b3b6408078d4ffaeacc2d
+      internalID: 1817833561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 109
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d753bcf308288d54484f687476e5b453
+      internalID: 911892586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_0: -1875213627
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_1: 51647506
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_10: -1082756147
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_11: 928508640
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_12: 998348857
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_13: 953513311
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_14: 667449251
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_15: -944882184
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_16: -1058388757
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_17: 997937438
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_18: -1055587825
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_19: 1899077029
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_2: -92212508
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_20: 612370879
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_21: 1817833561
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_22: 911892586
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_3: -701233055
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_4: 3678680
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_5: -1789976676
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_6: -368795192
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_7: 1122512587
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_8: -1264988867
+      png-transparent-yellow-buttons-illustration-graphical-user-interface-button-game-game-ui-button-game-user-interface-design-text-removebg-preview_9: -80146569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
